@@ -138,8 +138,98 @@ I built a Restaurant Performance Dashboard in Excel that tracks revenue, transac
 
 
 
-**Case Study 2 - Global Revenue Intelligence: Business Performance Analysis for Market Growth, Customer Value, and Product Optimization.**
+**Case Study 2 - From Customer Data to Retention Strategy: An Enterprise RFM Analytics Solution**
 
+![image](The Referral Rock - Advanced Enterprise RFM Solution..JPG)
+
+
+**Tech Stack:** Excel, Power Query, Power Pivot, DAX, PivotTables, Conditional Formatting, Data Modelling, RFM Scoring.
+
+I transfomed the customer data and loaded it using Power Query, then modeled in Power Pivot. RFM scores were calculated using the PERCENTILE function on a 1 to 10 scale for recency, frequency, and monetary value, then combined to classify customers into High Value, Active, At Risk, and Churned segments. DAX measures powered the year over year revenue comparison and the segment level metrics, while PivotTables and conditional formatting were used to build out the dashboard. I also did a data modelling using the star-schema and snowflakes.
+
+**Business Problem**
+
+The business lacked visibility into customer value, churn risk, and revenue concentration, even as overall revenue declined year over year. Leadership needed a clear way to identify high value customers, reduce churn, and uncover growth opportunities through customer segmentation.
+
+**Executive Summary**
+
+Using Excel and the RFM (Recency, Frequency, Monetary) framework, I built a Customer Retention Intelligence Dashboard that analyzed 1,794 customers across a five year period from 2019 to 2024. Total revenue stood at $6.44M, down 6.3% from the prior year. The analysis identified $1.55M in revenue at churn risk, uncovered 94 upsell opportunities, and showed that a small segment of customers drives most of the business's revenue.
+
+**Key Insights**
+
+**Revenue Is Declining Year Over Year**
+
+- Total Revenue: $6,440,115 ($6.44M)
+- Year over Year Change: -6.3% vs Prior Year
+
+Revenue fell 6.3% compared to the prior year, the exact trend this RFM analysis was built to explain and reverse.
+
+**High Value Customers Drive a Third of Revenue**
+
+- Revenue: $2.20M
+- Customers: 334
+- Revenue Contribution: 34.22%
+
+Only 18.62% of customers generate over a third of total revenue, which makes retaining this group a top priority.
+
+**At Risk Customers Carry $1.55M in Exposure**
+
+- Revenue at Risk: $1.55M
+- Customers: 580
+- Revenue Share: 24.10%
+
+Nearly one third of customers, 32.33% of the base, show signs of declining engagement, creating a real revenue recovery opportunity if they are re engaged before they churn.
+
+**Churn Has Already Cost the Business $484,741**
+
+- Churned Customers: 362
+- Revenue Lost: $484,741
+
+More than 20% of customers, 20.18% of the base, have already disengaged, taking nearly half a million dollars in revenue with them.
+
+**Revenue Is Concentrated Among a Small Group**
+
+- Top 20% of customers generate 67.1% of total revenue
+
+The business follows a classic Pareto pattern, which means it depends heavily on a relatively small group of high value customers.
+
+**Upsell Opportunities Exist**
+
+- 94 customers were identified as strong candidates for upselling and cross selling.
+
+These 94 customers already show strong engagement, which makes them the fastest path to additional revenue without acquiring new customers.
+
+**Churn Spiked in February and Eased in January**
+
+- Highest Churn Increase: February (+18.0%)
+- Largest Churn Reduction: January (-8.9%)
+
+Churn moves up and down throughout the year, which means retention campaigns need to target specific high risk months rather than running at a constant pace year round.
+
+**Recommendations**
+
+1. Build a VIP retention program for the high value customers who contribute 34.22% of revenue.
+2. Launch targeted recovery campaigns for the 580 at risk customers representing $1.55M in revenue.
+3. Set up predictive churn monitoring with automated retention alerts.
+4. Run personalized upsell campaigns for the 94 high potential customers.
+5. Reduce revenue concentration risk by increasing engagement among Active and At Risk customers, the two largest segments outside the High Value group.
+
+**Business Impact**
+
+This dashboard enabled the business to:
+
+- Identify $1.55M in revenue exposed to churn risk.
+- Quantify $484,741 in lost revenue from customers who already churned.
+- Discover 94 immediate upsell opportunities.
+- Reveal that 67.1% of revenue comes from the top 20% of customers.
+- Segment 1,794 customers into four groups, High Value, Active, At Risk, and Churned, each with a clear retention or growth action attached.
+
+**Business Impact Statement**
+
+I built an RFM based Customer Retention Intelligence Dashboard in Excel that segmented 1,794 customers into four groups based on recency, frequency, and monetary value. The dashboard identified $1.55M in at risk revenue, uncovered 94 upsell opportunities, and showed that the top 20% of customers generate 67.1% of total revenue. It gives leadership a clear view of where to focus retention efforts and where revenue is most exposed, backed by segment level evidence rather than guesswork.
+
+
+**Case Study 3 - Global Revenue Intelligence: Business Performance Analysis for Market Growth, Customer Value, and Product Optimization.**
 
 
 
