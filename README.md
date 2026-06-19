@@ -35,3 +35,21 @@ That is where I do my best work.
 •	**Attention to Detail** — I verify every figure against source data before it goes anywhere near a stakeholder, because one wrong number can undermine trust in everything else on a dashboard.
 
 •	**Curiosity** — I am always looking for a better query, a cleaner model, or a more intuitive way to present a finding.
+
+
+
+<!--Section 2: List 3-4 key projects-->
+## MY PROJECTS
+
+**Case Study 1 - Restaurant Sales Intelligence: Customer Demand Analysis, Revenue Optimization, and Seasonal Performance Analytics.**
+
+
+![image](THE SYNTAX GROUP DASHBOARD..jpeg)  ![image](THE SYNTAX GROUP DASHBOARD..jpeg)
+
+
+
+**Case Study 2 - Global Revenue Intelligence: Business Performance Analysis for Market Growth, Customer Value, and Product Optimization.**
+
+
+
+
