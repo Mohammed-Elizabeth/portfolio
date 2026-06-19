@@ -44,7 +44,7 @@ That is where I do my best work.
 **Case Study 1 - Restaurant Sales Intelligence: Customer Demand Analysis, Revenue Optimization, and Seasonal Performance Analytics.**
 
 
-![image](THE SYNTAX GROUP DASHBOARD..jpeg)  ![image](THE SYNTAX GROUP DASHBOARD..jpeg)
+![image](Front Page, Restaurant Analysis.jpeg)  ![image](THE SYNTAX GROUP DASHBOARD..jpeg)
 
 
 
