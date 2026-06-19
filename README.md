@@ -120,17 +120,7 @@ Monthly transaction volume moves within a relatively narrow range across the yea
 4. Test menu or promotion changes on Wednesday, since it consistently lags the rest of the week on revenue.
 5. Test bundling or upsell prompts to lift the average order size beyond its current $19.95 across roughly 3 items per transaction.
 6. Track quarterly revenue consistency going forward, since the current spread of about $3,600 between the strongest and weakest quarter suggests stable demand worth protecting rather than seasonal swings worth chasing.
-
-**Business Impact**
-
-This dashboard enabled the business to:
-
-- Track $349,926 in revenue across 17,534 transactions and 52,844 items sold.
-- Identify Grilled Chicken as the highest demand menu item, generating more than double the demand of the Vegetarian Platter.
-- Reveal that Friday drives the most transactions while Sunday drives the most revenue, pointing to higher spend per visit on Sundays.
-- Flag September as the one month where 2023 sales fell behind 2022.
-- Show that quarterly revenue stays within about $3,600 across the year, indicating stable demand rather than sharp seasonality.
-- Replace scattered reporting with one consistent view of menu, time, and day level performance.
+   
 
 **Business Impact Statement**
 
@@ -140,7 +130,7 @@ I built a Restaurant Performance Dashboard in Excel that tracks revenue, transac
 
 **Case Study 2 - From Customer Data to Retention Strategy: An Enterprise RFM Analytics Solution**
 
-![image](The Referral Rock - Advanced Enterprise RFM Solution..JPG)
+![image](Liz RFM Analysis..JPG)
 
 
 **Tech Stack:** Excel, Power Query, Power Pivot, DAX, PivotTables, Conditional Formatting, Data Modelling, RFM Scoring.
@@ -214,15 +204,6 @@ Churn moves up and down throughout the year, which means retention campaigns nee
 4. Run personalized upsell campaigns for the 94 high potential customers.
 5. Reduce revenue concentration risk by increasing engagement among Active and At Risk customers, the two largest segments outside the High Value group.
 
-**Business Impact**
-
-This dashboard enabled the business to:
-
-- Identify $1.55M in revenue exposed to churn risk.
-- Quantify $484,741 in lost revenue from customers who already churned.
-- Discover 94 immediate upsell opportunities.
-- Reveal that 67.1% of revenue comes from the top 20% of customers.
-- Segment 1,794 customers into four groups, High Value, Active, At Risk, and Churned, each with a clear retention or growth action attached.
 
 **Business Impact Statement**
 
