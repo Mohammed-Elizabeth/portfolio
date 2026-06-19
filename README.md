@@ -44,7 +44,97 @@ That is where I do my best work.
 **Case Study 1 - Restaurant Sales Intelligence: Customer Demand Analysis, Revenue Optimization, and Seasonal Performance Analytics.**
 
 
-![image](Front Page, Restaurant Analysis.jpeg)  ![image](THE SYNTAX GROUP DASHBOARD..jpeg)
+![image](Front Page, Restaurant Analysis.jpeg)  ![image](Restaurant Analysis.jpeg)
+
+
+
+**Tech Stack:** Excel, Power Query, Power Pivot, DAX, Star Schema and Snowflake Modeling, Calculated Columns
+
+Data was transformed using Power Query, then modeled in Power Pivot using a combination of star schema and snowflake schema design, supported by a dedicated date table built for time series analysis. DAX measures and calculated columns powered the KPI cards and the quarterly, monthly, and day of week breakdowns, while PivotTables brought it all together into the dashboard.
+
+**Business Problem**
+
+The restaurant needed visibility into which menu items, days, and time periods drove the most revenue and demand, so leadership could plan staffing, inventory, and promotions around real customer behavior instead of guesswork.
+
+**Executive Summary**
+
+I built a Restaurant Performance Dashboard that tracks revenue, transactions, quantity sold, and customer activity across the year, broken down by menu item, quarter, month, and day of week.
+
+The analysis found $349,926 in revenue across 17,534 transactions and 52,844 items sold, and surfaced clear patterns in which menu items, days, and periods drive the most business.
+
+**Key Insights**
+
+**Revenue and Transaction Baseline**
+
+- Total Revenue: $349,926
+- Total Transactions: 17,534
+- Total Quantity Sold: 52,844
+- Total Customers: 100
+
+Each transaction averages about $19.95 in revenue and roughly 3 items, giving the business a clear baseline to track if average order size or value shifts over time.
+
+**Grilled Chicken Leads Menu Demand**
+
+- Grilled Chicken: $12,854, the highest demand item
+- Vegetarian Platter: $5,706, the lowest labeled demand item
+
+Grilled Chicken generates more than double the demand of the Vegetarian Platter, making it the clear anchor item on the menu and a logical focus for the current 50% off promotion shown on the dashboard.
+
+**Revenue Holds Steady Across Quarters**
+
+- Q1: $86,175
+- Q2: $89,747
+- Q3: $87,672
+- Q4: $86,333
+
+Quarterly revenue stays within about $3,600 of each other across the year, with Q2 the strongest and Q1 the weakest, which points to steady demand rather than sharp seasonal swings.
+
+**2023 Outpaced 2022 in July but Fell Behind in September**
+
+- July: 2023 sales reached 105.53% of 2022 levels
+- September: 2023 sales fell to 94.51% of 2022 levels
+
+July stands out as the strongest month of growth versus the prior year, while September is the one labeled month where 2023 underperformed 2022, a gap worth digging into since every other labeled month points to growth.
+
+**Friday Drives the Most Transactions, Sunday Drives the Most Revenue**
+
+- Peak Transaction Day: Friday, 2,531
+- Lowest Transaction Day: Sunday, 2,483
+- Peak Revenue Day: Sunday, $51,088
+- Lowest Revenue Day: Wednesday, $48,454
+
+Friday brings in the highest transaction count, but Sunday brings in the highest revenue despite having the lowest transaction count in the week. That gap points to customers spending more per visit on Sundays, likely larger groups, higher priced orders, or both.
+
+**Monthly Transaction Volume Stays in a Narrow Band**
+
+- Highest Month: 1,554 transactions
+- Lowest Month: 1,448 transactions
+
+Monthly transaction volume moves within a relatively narrow range across the year, which points to steady month to month demand rather than sharp seasonal spikes.
+
+**Recommendations**
+
+1. Expand the Grilled Chicken promotion or use it as a gateway item to cross sell other menu items, since it already leads demand by a wide margin over items like the Vegetarian Platter.
+2. Investigate what changed in September that caused 2023 sales to fall behind 2022, since every other labeled month points to growth.
+3. Staff and prep more heavily for Friday given its lead in transaction volume, while reviewing Sunday service for upsell opportunities given its higher revenue despite fewer transactions.
+4. Test menu or promotion changes on Wednesday, since it consistently lags the rest of the week on revenue.
+5. Test bundling or upsell prompts to lift the average order size beyond its current $19.95 across roughly 3 items per transaction.
+6. Track quarterly revenue consistency going forward, since the current spread of about $3,600 between the strongest and weakest quarter suggests stable demand worth protecting rather than seasonal swings worth chasing.
+
+**Business Impact**
+
+This dashboard enabled the business to:
+
+- Track $349,926 in revenue across 17,534 transactions and 52,844 items sold.
+- Identify Grilled Chicken as the highest demand menu item, generating more than double the demand of the Vegetarian Platter.
+- Reveal that Friday drives the most transactions while Sunday drives the most revenue, pointing to higher spend per visit on Sundays.
+- Flag September as the one month where 2023 sales fell behind 2022.
+- Show that quarterly revenue stays within about $3,600 across the year, indicating stable demand rather than sharp seasonality.
+- Replace scattered reporting with one consistent view of menu, time, and day level performance.
+
+**Business Impact Statement**
+
+I built a Restaurant Performance Dashboard in Excel that tracks revenue, transactions, quantity, and customer activity across menu items, quarters, months, and days of the week. The analysis covered $349,926 in revenue across 17,534 transactions, identified Grilled Chicken as the top demand item, and surfaced a meaningful gap between Friday's transaction volume and Sunday's revenue lead. It gives restaurant leadership a clear view of where demand and revenue actually come from, down to the day of the week, instead of relying on instinct alone.
 
 
 
