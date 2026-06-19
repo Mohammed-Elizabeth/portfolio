@@ -210,7 +210,99 @@ Churn moves up and down throughout the year, which means retention campaigns nee
 I built an RFM based Customer Retention Intelligence Dashboard in Excel that segmented 1,794 customers into four groups based on recency, frequency, and monetary value. The dashboard identified $1.55M in at risk revenue, uncovered 94 upsell opportunities, and showed that the top 20% of customers generate 67.1% of total revenue. It gives leadership a clear view of where to focus retention efforts and where revenue is most exposed, backed by segment level evidence rather than guesswork.
 
 
-**Case Study 3 - Global Revenue Intelligence: Business Performance Analysis for Market Growth, Customer Value, and Product Optimization.**
+**Case Study 3 - Data-Driven Supply Chain Optimization: Supplier Performance, Delivery Reliability, and Risk Management.**
+
+![image](Liz - Supply Chain & Logistics Performance Analysis..JPG)
+
+
+**Tech Stack:** Power BI, Power Query, DAX, Star Schema and Snowflake Modeling, Comprehensive Date Table
+
+
+**Business Problem**
+
+The business needed visibility into supplier reliability, on-time delivery performance, and damage rates across its supply chain to understand where shipments were falling short and which suppliers and product categories carried the most risk.
+
+**Executive Summary**
+
+I built a Supply Chain and Logistics Performance Dashboard that tracks $1.06 billion in shipment value across 4,200 shipments, broken down by supplier reliability, product category, on-time delivery, and damage rate.
+
+The analysis found that only 34% of shipments arrive on time across the entire portfolio, a problem that holds true even for the best performing supplier and product category, while damage rates stay fairly consistent around 4% regardless of supplier or product.
+
+**Key Insights**
+
+**On-Time Delivery Is a Business Wide Problem**
+
+- Total Shipments: 4,200, up 0.8% from last year
+- On Time Shipments: 1,428, down 0.8% from last year
+- On-Time Rate: 34%, down 1.6% from last year
+
+Shipment volume grew slightly year over year, but on-time shipments actually fell, which means delivery performance is slipping even as the business ships more. This is not isolated to one supplier or category either, the best performing supplier still only reaches a 34.9% on-time rate, which means roughly two out of every three shipments across the portfolio arrive late.
+
+**FastTrack Logistics Leads on Reliability**
+
+- Shipments Handled: 519
+- Shipment Value: $128.9M
+- On-Time Rate: 34.9%
+
+FastTrack Logistics delivers the highest on-time rate in the portfolio at 34.9%, only slightly above the 34% average, which shows that even the strongest supplier is operating in roughly the same underperforming range as everyone else.
+
+**SwiftCargo NG Underperforms on Both Speed and Damage**
+
+- On-Time Rate: 32.4%, the worst in the portfolio
+- Damage Rate: 4.3%, the highest in the portfolio, equal to about $43.1M in damaged goods
+
+SwiftCargo NG ranks worst on both on-time rate and damage rate, but the gap between SwiftCargo NG and the best supplier is only 2.5 percentage points on time and 0.6 percentage points on damage, which points to company wide inconsistency rather than one bad supplier.
+
+**Damage Rates Stay Tight Across Suppliers and Products**
+
+- Highest Supplier Damage Rate: SwiftCargo NG, 4.3%
+- Lowest Supplier Damage Rate: Cross Border Express, 3.7%
+- Highest Product Damage Rate: Agro-commodities, 4.21%
+- Lowest Product Damage Rate: Industrial Parts, 3.87%
+
+Damage rates cluster tightly around the 4.1% portfolio average no matter which supplier or product is involved, which points to a shared operational cause such as handling or packaging rather than a single weak link.
+
+**Textiles Has the Worst On-Time Performance of Any Product Category**
+
+- Textiles: 29.73% on time
+- Industrial Parts: 33.88% on time
+- Pharmaceuticals: 34.55% on time
+- Electronics: 34.71% on time
+- Agro-commodities: 34.78% on time
+- FMCG: 36.68% on time
+
+Textiles shipments arrive late about 7 out of every 10 times, the worst on-time rate of any category, while even FMCG, the best performing category, still arrives late more than 6 out of every 10 times.
+
+**Agro-commodities Carries the Highest Product Damage Risk**
+
+- Agro-commodities: 4.21%
+- FMCG: 4.17%
+- Pharmaceuticals: 4.10%
+- Electronics: 4.06%
+- Textiles: 3.99%
+- Industrial Parts: 3.87%
+
+Agro-commodities combines a high damage rate with one of the stronger on-time rates, while Textiles shows the opposite pattern, holding up fine on damage but falling badly on speed, which means damage and delay are likely driven by different root causes.
+
+**Recommendations**
+
+1. Treat the 34% on-time rate as a company wide issue rather than a supplier specific one, since even the best supplier and best product category still miss the on-time target most of the time.
+2. Investigate the root cause of late Textiles shipments specifically, given a 29.73% on-time rate means most of this category arrives late.
+3. Audit packaging and handling processes across all suppliers, since the consistently tight 3.7% to 4.3% damage rate range points to a shared process issue rather than one supplier's fault.
+4. Review SwiftCargo NG's operations directly, since it ranks worst on both on-time rate and damage rate, even though the gap to other suppliers is small.
+5. Study what FastTrack Logistics does differently to reach a 34.9% on-time rate, and test whether that approach can be applied to other suppliers.
+6. Set a clear on-time delivery target and track progress against it monthly, since the current 34% rate leaves substantial room for improvement before reaching an acceptable service level.
+
+
+**Business Impact Statement**
+
+I built a Supply Chain and Logistics Performance Dashboard that tracks $1.06 billion in shipment value and 4,200 shipments across supplier, product, on-time delivery, and damage rate metrics. The analysis found that only 34% of shipments arrive on time across the entire portfolio, a gap that holds even for the best performing supplier and product category, while damage rates stay consistent around 4% regardless of supplier or product. It gives logistics leadership a clear view of where delivery and damage problems start, and a way to track progress as fixes get put in place.
+
+
+
+
+
+**Case Study 4 - Global Revenue Intelligence: Business Performance Analysis for Market Growth, Customer Value, and Product Optimization.**
 
 
 
