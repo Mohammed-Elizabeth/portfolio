@@ -302,7 +302,88 @@ I built a Supply Chain and Logistics Performance Dashboard that tracks $1.06 bil
 
 
 
-**Case Study 4 - Global Revenue Intelligence: Business Performance Analysis for Market Growth, Customer Value, and Product Optimization.**
+**Case Study 4 - A Multi-Dimensional Business Intelligence Analysis of Revenue Trends, Sales Team Effectiveness, Product Performance, and Geographic Market Contribution.**
 
 
+![image](Liz - Supply Chain & Logistics Performance Analysis..JPG)
+
+**Tech Stack:** Excel, Power Query, Power Pivot, DAX, Star Schema and Snowflake Modeling, Calculated Columns, PivotTables, Conditional Formatting
+
+Data was transformed and loaded using Power Query, then modeled in Power Pivot using a combination of star schema and snowflake schema design, supported by a dedicated date table built for time series analysis. DAX measures and calculated columns powered the YoY growth calculations, regional breakdowns, customer revenue rankings, and product level performance metrics, while PivotTables brought it all together into the dashboard.
+
+**Business Problem**
+
+The business needed a consolidated view of revenue performance, product demand, regional contribution, and customer value to understand where growth was coming from and which markets, products, and customers were driving the most impact.
+
+**Executive Summary**
+
+I built a Business Performance Analysis Dashboard that tracks revenue, quantity sold, product performance, regional distribution, and top customer contribution across the year.
+
+The analysis found $1.82M in revenue across 2,453 units sold, with revenue up 21% and quantity up 13% year over year. The dashboard identified the North region and the US as the strongest performing market, Tablet as the top revenue and volume product, and David Kim as the highest value customer, while also flagging a sharp mid year revenue dip that pulled November to the lowest monthly figure of the year.
+
+**Key Insights**
+
+**Revenue and Volume Are Both Growing**
+
+- Total Revenue: $1,823,407
+- Total Quantity Sold: 2,453
+- Total Products: 8
+- Revenue Growth: +21% YoY
+- Quantity Growth: +13% YoY
+
+Revenue grew faster than volume, which means the business is not just selling more but capturing more value per unit sold. That 8 percentage point gap between revenue growth and quantity growth is a healthy sign.
+
+**May Peaks, November Drops Sharply**
+
+- Highest Month: May ($190,172)
+- Lowest Month: November ($96,390)
+
+Revenue in May runs 97.3% higher than November, nearly double, pointing to a significant mid to late year dip that warrants investigation. Whether this reflects a seasonal pattern, a campaign that ran in May and paused later, or a demand shift, it is the sharpest swing in the monthly trend.
+
+**The US Dominates Country Revenue**
+
+- Best Performing Country: US ($97,949, 22.92% of revenue)
+- Least Performing Country: DE ($4,590, 1.07% of revenue)
+- US vs DE Gap: 21.85 percentage points
+
+The US contributes 22.92% of total revenue on its own, more than twenty times the contribution of DE, the weakest country in the portfolio. That concentration creates both a growth opportunity in the US and a risk if that market softens.
+
+**North and East Lead Regional Revenue**
+
+- North: $471,779
+- East: $458,810
+- South: $398,794
+- West: $390,190
+
+North and East together account for $930,589, about 51% of total revenue, while South and West together hold the remaining 49%. The gap between the strongest and weakest region is $81,589, which is meaningful but not extreme, pointing to reasonably balanced regional performance with North holding a clear lead.
+
+**Tablet Leads on Both Revenue and Volume**
+
+- Tablet: $290,735 in revenue, 78 units sold
+- Keyboard: $235,949 in revenue, 63 units sold (lowest volume)
+- Laptop: $234,387 in revenue
+
+Tablet sits at the top on both revenue and quantity, while Keyboard is the lowest volume product yet still ranks second on revenue, pointing to a higher revenue per unit for Keyboard relative to its sales volume. That pattern is worth watching when making inventory and promotion decisions.
+
+**Three Customers Drive a Significant Share of Revenue**
+
+- David Kim: $256,681
+- Sarah Lee: $239,229
+- Chris Evans: $230,323
+
+The top three customers together account for $726,233, about 39.8% of total revenue. That level of concentration in three individuals is a retention risk and also a clear signal that a targeted key account strategy for these customers would pay off.
+
+**Recommendations**
+
+1. Investigate the November revenue drop, since it falls to $96,390 against a May peak of $190,172, and a pattern that sharp usually has a specific cause worth addressing.
+2. Build key account management around David Kim, Sarah Lee, and Chris Evans, since together they represent nearly 40% of total revenue.
+3. Prioritize Tablet in inventory and marketing given it leads on both revenue and volume, while reviewing Keyboard since it holds strong revenue despite the lowest unit count.
+4. Develop a targeted growth strategy for the DE market, since a 1.07% revenue contribution from a country that is already in the portfolio represents a clear underperformance gap.
+5. Study what drives the North region's lead over South and West, and test whether those conditions can be replicated to lift performance in the weaker regions.
+6. Monitor the gap between revenue growth (21%) and volume growth (13%) going forward, since it reflects positive pricing or mix improvement right now, but a widening gap could also point to future demand softness.
+   
+
+**Business Impact Statement**
+
+I built a Business Performance Analysis Dashboard in Excel that tracks revenue, quantity, regional contribution, product performance, and customer value across the year. The analysis covered $1.82M in revenue growing at 21% YoY, identified Tablet as the top product on both revenue and volume, and revealed that three customers account for nearly 40% of total revenue. It gives leadership a clear and consistent view of where growth is coming from and where concentration risk sits, down to the customer, product, and regional level.
 
