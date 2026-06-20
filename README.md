@@ -300,12 +300,10 @@ I built a Supply Chain and Logistics Performance Dashboard that tracks $1.06 bil
 
 
 
-
-
 **Case Study 4 - A Multi-Dimensional Business Intelligence Analysis of Revenue Trends, Sales Team Effectiveness, Product Performance, and Geographic Market Contribution.**
 
 
-![image](Liz - Supply Chain & Logistics Performance Analysis..JPG)
+![image](Business Performance - Lz Dashbard.png)
 
 **Tech Stack:** Excel, Power Query, Power Pivot, DAX, Star Schema and Snowflake Modeling, Calculated Columns, PivotTables, Conditional Formatting
 
@@ -387,3 +385,73 @@ The top three customers together account for $726,233, about 39.8% of total reve
 
 I built a Business Performance Analysis Dashboard in Excel that tracks revenue, quantity, regional contribution, product performance, and customer value across the year. The analysis covered $1.82M in revenue growing at 21% YoY, identified Tablet as the top product on both revenue and volume, and revealed that three customers account for nearly 40% of total revenue. It gives leadership a clear and consistent view of where growth is coming from and where concentration risk sits, down to the customer, product, and regional level.
 
+
+**Case Study 5 - SQL Analysis of the Forbes Billionaires Dataset**
+
+
+![image](SQL.jpeg)
+
+
+**Tech Stack:** MySQL, MySQL Workbench
+
+
+**Business Problem**
+
+Raw billionaire wealth data sitting in a spreadsheet or flat file makes it hard to answer specific questions quickly, things like which countries carry the most billionaires, how wealth is distributed across that group, or how to pull every record matching a specific name, age, or location. This project moved that data into a proper relational structure and queried it directly with SQL instead of scanning rows by hand.
+
+**Database Setup**
+
+- Created a dedicated schema to house the project
+- Created a `billionaires` table with columns for name, gender, country, finalworth, city, age, birthmonth, and lastname, each assigned an appropriate data type
+- Inserted the full dataset into the table, totaling 475 records
+
+Building the schema and table first, rather than querying a flat file directly, meant every later query ran against a clean, structured table instead of re-parsing raw data each time.
+
+**Analysis Approach**
+
+The analysis combined several core SQL techniques to explore the dataset from different angles.
+
+Filtering records with WHERE and pattern matching with LIKE:
+```sql
+SELECT name, gender, country, finalworth, city, age, birthmonth, lastname
+FROM billionaires
+WHERE lastname LIKE 'A%';
+```
+
+Finding every unique value in a column with DISTINCT:
+```sql
+SELECT DISTINCT country
+FROM billionaires;
+```
+
+Counting how many unique values exist with COUNT(DISTINCT):
+```sql
+SELECT COUNT(DISTINCT country) AS unique_countries
+FROM billionaires;
+```
+
+Grouping and ranking records with GROUP BY and ORDER BY:
+```sql
+SELECT country, COUNT(*) AS billionaire_count
+FROM billionaires
+GROUP BY country
+ORDER BY billionaire_count DESC;
+```
+
+**Example Query Result**
+
+Running the WHERE and LIKE query above returned 19 billionaires with a last name starting with A, ranging from Bernard Arnault in France at $211B down to entries like Theo Albrecht Jr. & family in Germany at $16.5B. Among the visible results, Mukesh Ambani (India, $83.4B), Gautam Adani (India, $47.2B), Miriam Adelson & family (United States, $35B), Gianluigi Aponte (Switzerland, $31.2B), Rafaela Aponte-Diamant (Switzerland, $31.2B), and Vagit Alekperov (Russia, $20.5B) also appeared in the result set.
+
+**Key Findings**
+
+- The full dataset holds 475 billionaire records.
+- A single WHERE and LIKE filter narrowed that down to 19 individuals in milliseconds, showing how quickly SQL can isolate a precise subset out of hundreds of rows.
+- Even within that narrow surname filter, net worth ranged from $211B down to $16.5B, which shows that a simple alphabetical filter can still surface a wide spread once you look at the actual values.
+
+**SQL Skills Demonstrated**
+
+CREATE SCHEMA, CREATE TABLE, INSERT INTO, SELECT, WHERE, LIKE, DISTINCT, COUNT(DISTINCT), GROUP BY, ORDER BY, and aggregate functions including COUNT, AVG, MAX, and MIN.
+
+**Business Impact Statement**
+
+I built a relational database in MySQL from raw billionaire wealth data, creating the schema, designing the table structure, and loading 475 records before querying it directly with SQL. The analysis used WHERE, LIKE, DISTINCT, COUNT(DISTINCT), GROUP BY, and ORDER BY to filter, de-duplicate, and rank the data, turning a flat dataset into something that can answer specific questions about global wealth distribution on demand.
