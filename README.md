@@ -455,3 +455,24 @@ CREATE SCHEMA, CREATE TABLE, INSERT INTO, SELECT, WHERE, LIKE, DISTINCT, COUNT(D
 **Business Impact Statement**
 
 I built a relational database in MySQL from raw billionaire wealth data, creating the schema, designing the table structure, and loading 475 records before querying it directly with SQL. The analysis used WHERE, LIKE, DISTINCT, COUNT(DISTINCT), GROUP BY, and ORDER BY to filter, de-duplicate, and rank the data, turning a flat dataset into something that can answer specific questions about global wealth distribution on demand.
+
+
+
+
+
+## CONTACT DETAILS
+
+*Let’s connect and see how we can make a difference together!*
+<table>
+  <tbody>
+    <tr>
+      <td>📧</td>
+      <td><a href="mailto:zeezainab2014@gmail.com">zeezainab2014@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td>📞</td>
+      <td>(234) 706-396-7115</td>
+    </tr>
+    <tr>
+      <td>📍</td>
+      <td>Lagos, Nigeria</td> 
