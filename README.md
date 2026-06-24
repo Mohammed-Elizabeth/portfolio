@@ -128,7 +128,7 @@ I built a Restaurant Performance Dashboard in Excel that tracks revenue, transac
 
 
 
-**Case Study 2 - From Customer Data to Retention Strategy: An Enterprise RFM Analytics Solution**
+**Case Study 2 - An Advanced RFM Analytics Solution - (Customer Retention Intelligence).**
 
 ![image](Liz RFM Analysis..JPG)
 
