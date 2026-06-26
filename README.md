@@ -41,7 +41,7 @@ That is where I do my best work.
 <!--Section 2: List 3-4 key projects-->
 ## MY PROJECTS
 
-**Case Study 1 - Restaurant Sales Intelligence Dashboard.**
+**Case Study 1 - Restaurant Sales Intelligence Analysis.**
 
 
 ![image](Front Page, Restaurant Analysis.jpeg)  ![image](Restaurant Analysis.jpeg)
@@ -128,7 +128,7 @@ I built a Restaurant Performance Dashboard in Excel that tracks revenue, transac
 
 
 
-**Case Study 2 - Enterprise RFM Customer Retention Dashboard.**
+**Case Study 2 - RFM Analysis & Customer Retention Intelligence.**
 
 ![image](Liz - An Advanced RFM Analytics Solution - (Customer Retention Intelligence)..JPG)
 
@@ -210,7 +210,7 @@ Churn moves up and down throughout the year, which means retention campaigns nee
 I built an RFM based Customer Retention Intelligence Dashboard in Excel that segmented 1,794 customers into four groups based on recency, frequency, and monetary value. The dashboard identified $1.55M in at risk revenue, uncovered 94 upsell opportunities, and showed that the top 20% of customers generate 67.1% of total revenue. It gives leadership a clear view of where to focus retention efforts and where revenue is most exposed, backed by segment level evidence rather than guesswork.
 
 
-**Case Study 3 - Supply Chain & Logistics Performance Dashboard.**
+**Case Study 3 - Supply Chain & Logistics Performance Intelligence.**
 
 ![image](Liz - Supply Chain & Logistics Performance Analysis.JPG)
 
@@ -300,7 +300,7 @@ I built a Supply Chain and Logistics Performance Dashboard that tracks $1.06 bil
 
 
 
-**Case Study 4 - Enterprise Business Performance Intelligence Dashboard.**
+**Case Study 4 - Executive Business Performance Intelligence Analysis.**
 
 
 ![image](Business Performance - Lz Dashbard.png)
